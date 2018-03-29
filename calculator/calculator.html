@@ -1,0 +1,40 @@
+<h1>Calculator</h1>
+
+<div class="row">
+    <div class="main">
+        <div class="screen">
+            <span id="total">{{vm.total}}</span>
+        </div>
+        <ul>
+            <li><button class="c-reset" data-ng-click="vm.ShowId($event)" value="C/E" >C/E</button></li>
+            <li><button class="c-del" data-ng-click="vm.ShowId($event)" value="&larr;" >&larr;</button></li>
+            <li><button class="c-action" data-ng-click="vm.ShowId($event)" value="/" >&divide;</button></li>
+        </ul>
+        <ul>
+            <li><button class="c-action" data-ng-click="vm.ShowId($event)" value="+" >+</button></li>
+            <li><button class="c-action" data-ng-click="vm.ShowId($event)" value="-" >-</button></li>
+            <li><button class="c-action" data-ng-click="vm.ShowId($event)" value="*" >&times;</button></li>
+
+        </ul>
+        <ul>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="7" >7</button></li>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="8" >8</button></li>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="9" >9</button></li>
+        </ul>
+        <ul>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="4" >4</button></li>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="5" >5</button></li>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="6" >6</button></li>
+        </ul>
+        <ul>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="1" >1</button></li>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="2" >2</button></li>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="3" >3</button></li>
+        </ul>
+        <ul>
+            <li><button class="c-int" data-ng-click="vm.ShowId($event)" value="0" >0</button></li>
+            <li><button class="c-dot" data-ng-click="vm.ShowId($event)" value="." >.</button></li>
+            <li><button class="c-cal" data-ng-click="vm.ShowId($event)" value="=" >=</button></li>
+        </ul>
+    </div>
+</div>
